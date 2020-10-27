@@ -34,4 +34,25 @@ public class AjaxController {
         
            return userList;
     }
+    @RequestMapping("/a3")
+    public String a3(String name,String pwd){
+        String msg="";
+        if(name!=null){
+            //admin 这些数据应该在数据库中查询
+            if("admin".equals(name)){
+                msg="ok";
+            }else{
+                msg="用户名有误！";
+            }
+        }
+        if(pwd!=null){
+            //123456 这些数据应该在数据库中查询
+            if("123456".equals(pwd)){
+                msg="ok";
+            }else{
+                msg="密码有误！";
+            }
+        }
+        return msg;
+    }
 }
