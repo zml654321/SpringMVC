@@ -12,8 +12,9 @@
         <module>SpringMVC-test1</module>
         <module>Springmvc-02-hello</module>
         <module>Springmvc-03-hello-annotation</module>
-        <module>springmvc-06-ajax</module>
         <module>Springmvc-07-ajax</module>
+        <module>Springmvc-08-intercepter</module>
+        <module>SpringMVC-09-file</module>
     </modules>
     <dependencies>
         <dependency>

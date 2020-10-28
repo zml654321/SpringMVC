@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Springmvc-03-hello-annotation" />
-        <module name="Springmvc-02-hello" />
-        <module name="SpringMVC-test1" />
+        <module name="SpringMVC-09-file" />
         <module name="Springmvc-07-ajax" />
+        <module name="Springmvc-08-intercepter" />
+        <module name="SpringMVC-test1" />
+        <module name="Springmvc-02-hello" />
+        <module name="Springmvc-03-hello-annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
